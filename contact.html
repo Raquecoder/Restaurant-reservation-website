@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Restaurant Website</title>
+</head>
+<body class="body">
+  <header>
+    <div>
+     <a href="index.html">
+      <img src="logo.png" class="logo" alt=""/>
+     </a> 
+    </div>
+    <nav class="navigation">
+      <button class="open-btn" id="open-btn"> &#9776;</button>
+        <ul class="nav-list" id="nav-list">
+          <button class="close-btn" id="close-btn">&times;</button>
+          <li class="nav-items"><a href="index.html" class="nav-links">Home</a></li>
+          <li class="nav-items"><a href="menu.html" class="nav-links">Menu</a></li>
+          <li class="nav-items"><a href="about.html" class="nav-links">About</a></li>
+          <li class="nav-items"><a href="contact.html" class="nav-links">Contact</a></li>
+          <button class="reservation-btn"><a href="make-a-reservation.html" class="link-btn"target=”_blank” >Make a Reservation</a></button> 
+        </ul>  
+    </nav>
+  </header>
+
+  <section class="contact-us">
+    <h1 class="contact-title">Contact Us</h1>
+    <div class="contact-info">
+      <p>Interested to learn more about what we do? Excited to get a behind-the-scenes look at how we operate? Want to talk to someone on our awesome team?  
+
+        Feel free to reach out with any and all inquiries. Fill out the contact form, and someone will be in touch in 1-4 business days. We’re looking forward to hearing from you. </p>
+    </div>
+        <form>
+            <label for="first-name">First Name</label>
+               <input type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="First Name"
+                required>
+       
+            <label for="email">Email</label>
+               <input type="text"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required>
+           
+            <label for="tel">Phone Number</label>
+               <input type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Phone">
+            
+           <label for="text">Comment</label>
+            <textarea rows="10">Comment</textarea>
+           <button class="sign-up-btn">Sign Up</button>
+           </form>
+     
+  </section>
+
+
+
+  <!---FOOTER--->
+  <footer class="footer">
+    <h2 class="footer-title">taste for yourselft</h2>
+    <button class="reservation-btn"><a href="make-a-reservation.html" class="link-btn">Make a Reservation</a></button> 
+    <p class="copyrights"> &#169; All rights reserved 2024</p>
+  </footer>
+ <script src="index.js"></script>   
+</body>
+</html>
