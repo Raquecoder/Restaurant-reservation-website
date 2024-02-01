@@ -377,7 +377,7 @@ form{
   width: 100%;
 }
 }
-@media(max-width:428px){
+@media(max-width:430px){
   
 .authentic-ramen{
   height: 180vh;
@@ -385,7 +385,8 @@ form{
   
  }
 .footer{
-  height:50vh;
+  height:40vh;
+  background-color: magenta;
 }
 }
 
@@ -416,6 +417,7 @@ form{
 .icon-section {
   margin-top: .5em;
 }
+
 }
  
  
