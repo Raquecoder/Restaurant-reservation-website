@@ -378,7 +378,9 @@ form{
 }
 }
 @media(max-width:430px){
-  
+.about-us {
+  margin-bottom: 1em;
+}
 .authentic-ramen{
   height: 180vh;
   margin: 11em 0;
