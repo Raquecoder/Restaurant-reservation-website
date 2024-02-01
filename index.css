@@ -59,13 +59,15 @@ header{
   font-size: 1.5rem;
   color: black;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .nav-links:hover,
+.nav-links:active,
 .nav-links:focus {
   color: #ffc800;
-  transition: 0.3s;
 }
+
 
 .reservation-btn {
   padding: 5px 15px;
@@ -114,8 +116,8 @@ header{
   height: 60vh;
   padding: 3em;
   position: relative;
-  top:4em;
-  left: 5em;
+  top:3em;
+  left: 6em;
 }
 
 .title {
@@ -382,8 +384,11 @@ form{
   margin-top: 11em;
   
  }
-
+ .icon-section{
+  height: 90vh;
 }
+}
+
 @media(max-width: 414px){
 .background-container{
   height: 30vh;
