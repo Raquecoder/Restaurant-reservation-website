@@ -381,12 +381,11 @@ form{
   
 .authentic-ramen{
   height: 180vh;
-  margin-top: 11em;
+  margin: 11em 0;
   
  }
 .footer{
   height:40vh;
-  background-color: magenta;
 }
 }
 
