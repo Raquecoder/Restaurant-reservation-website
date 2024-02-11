@@ -63,22 +63,22 @@ header{
 }
 
 .nav-links:hover,
-.nav-links:active,
 .nav-links:focus {
   color: #ffc800;
 }
 
-
+.active {
+  color: #ffc800;
+}
 .reservation-btn {
   padding: 5px 15px;
   background-color: #ffc800;
-  border: none;
+  border: 1px #ffc800 solid;
+  transition: 0.3s;
   cursor: pointer;
 }
 .reservation-btn:hover {
-  background-color: transparent;
-  transition: 0.3s;
-  border:2px #ffc800 solid;
+  background-color: #ffc80080;
 }
 .link-btn {
   text-decoration: none;
@@ -248,7 +248,7 @@ textarea {
 
 .sign-up-btn {
   background-color: #ffc800;
-  border: none;
+  border:1px #ffc800 solid;
   padding: .5em;
   margin-top: .5em;
   text-transform: capitalize;
@@ -259,7 +259,6 @@ textarea {
 
 .sign-up-btn:hover {
   background-color: rgb(241, 238, 238);
-  border:1px #ffc800 solid;
 }
 
 /*===RESERVATION CONTAINER===*/
