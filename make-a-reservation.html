@@ -8,12 +8,12 @@
 </head>
 <body class="reservation-container">
     <a href="index.html" class="logo-container">
-     <img src="logo.png"  alt="" class="logo-reservation-page"/>
+     <img src="logo.webp"  alt="" class="logo-reservation-page"/>
     </a>
     
     <form class="reservation" method="get">
       <label for="adult" >Adults</label>
-      <input type="number" id="guest" name="total-guest" placeholder="2" min="1" required>
+      <input type="number" id="guest" name="total-guest" placeholder="2" min="1" max="10" required>
       <label for="date">Date</label>
       <input type="date" id="date" name="total-guest" required>
   
@@ -21,9 +21,9 @@
       <input type="time" id="time" name="time" min="11:00" max="21:00" required />
       <button class="reservation-btn">Submit</button>
     </form>
-    <a href="index.html" class="back-home-btn" target=”_blank”><button class="reservation-btn">BACK HOME PAGE </button></a>
+    <a href="index.html" class="back-home-btn" target=”_blank”><button class="reservation-btn" type="button">BACK HOME PAGE </button></a>
   <footer class="footer">
-    <h2 class="footer-title">taste for yourselft</h2> 
+    <h2 class="footer-title">taste for yourself</h2> 
     <p class="copyrights"> &#169; All rights reserved 2024</p>
   </footer>
  <script src="index.js"></script>   
