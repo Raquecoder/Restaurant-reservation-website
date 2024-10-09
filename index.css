@@ -61,6 +61,9 @@ header{
   cursor: pointer;
   transition: 0.3s;
 }
+a{
+  color:#000;
+}
 
 .nav-links:hover,
 .nav-links:focus {
@@ -74,6 +77,7 @@ header{
   padding: 10px 25px;
   background-color: #ffc800;
   border: 1px #ffc800 solid;
+  font-weight: bold;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -93,6 +97,7 @@ header{
 
 .background-photo{
   width: 100%;
+
 }
 
 .details {
